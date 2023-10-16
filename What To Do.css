@@ -1,0 +1,252 @@
+@font-face{
+    font-family: 'Azonix';
+    src: url(/Users/26attp/Desktop/Y9%20Project%20Website/azonix/Azonix.otf);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #A7E697;
+    color: #000000;
+}
+
+/* Header */
+
+header{
+    display: inline-flex;
+}
+
+
+.Hero{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    top: 0;
+    left: 0;
+    opacity: 95%;
+    z-index: -1;
+}
+
+.Logo{
+    position: absolute;
+    font-family: "Azonix", sans-serif;
+    margin-top: 15px;
+    padding-right: 10px;
+    color: white;
+}
+.Logo1{
+    position: absolute;
+    font-family: "Azonix", sans-serif;
+    left: 20px;
+    top: 55px;
+    padding-right: 10px;
+    color: white;
+}
+a.nav_button1{
+    font-family: "Azonix", sans-serif;
+    top: 15px;
+    left: 7.8em;
+    padding-right: 10px;
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 7em 0 7em;
+    position: relative;
+    font-size: 15px;
+}
+a.nav_button2, a.nav_button3{
+    font-family: "Azonix", sans-serif;
+    top: 14px;
+    left: 5em;
+    padding-right: 10px;
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 7em 0 7em;
+    position: relative;
+    font-size: 15px;
+}
+
+a.nav_button4{
+    font-family: "Azonix", sans-serif;
+    top: 14px;
+    left: 5em;
+    padding-right: 10px;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 7em 0 7em;
+    position: relative;
+    font-size: 15px;
+}
+
+a.nav_button:hover{
+    color: #f3a659;
+    text-shadow: #444242;
+}
+
+.What_To_Do{
+    font-family: "Azonix", sans-serif;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-left: 5em;
+    margin-top: 4em;
+    display: block;
+    font-size: 5em;
+}
+
+
+/*Stay Connected*/
+
+.Title1{
+    position: absolute;
+    top: 30.5em;
+    left: 3em;
+}
+
+.Paragraph1{
+    position: absolute;
+    top: 69.5em;
+    left: 2.5em;
+    width: 40em;
+}
+
+.Paragraph2{
+    position: absolute;
+    top: 76em;
+    left: 2.5em;
+    width: 40em;
+}
+
+.Image1{
+    position: absolute;
+    top: 61.5em;
+    left: 44em;
+    width: 700px;
+    height: 450px;
+    border-radius: 15px;
+}
+
+/*Stay or Defend*/
+
+.Title2{
+    position: absolute;
+    top: 46.7em;
+    right: 4em;
+}
+
+.Paragraph3{
+    position: absolute;
+    top: 100em;
+    right: 2.5em;
+    width: 40em;
+}
+
+.Paragraph4{
+    position: absolute;
+    top: 108em;
+    right: 2.5em;
+    width: 40em;
+}
+
+.Image2{
+    position: absolute;
+    top: 95em;
+    right: 44.4em;
+    height: 380px;
+    width: 700px;
+    border-radius: 15px;
+}
+
+/*Sheltering Your Home*/
+
+.Title3{
+    position: absolute;
+    top: 61.5em;
+    left: 2.5em;
+}
+
+.Paragraph5{
+    position: absolute;
+    top: 130em;
+    left: 2.5em;
+    width: 40em;
+}
+
+.Paragraph6{
+    position: absolute;
+    top: 137em;
+    left: 2.5em;
+    width: 40em;
+}
+
+.Image3{
+    position: absolute;
+    top: 124em;
+    left: 44.4em;
+    height: 380px;
+    width: 700px;
+    border-radius: 15px;
+}
+
+/*Safer Places During Bfire*/
+
+
+.Title4{
+    position: absolute;
+    top: 75.5em;
+    right: 3.5em;
+}
+
+.Paragraph7{
+    position: absolute;
+    top: 157em;
+    right: 2.5em;
+    width: 40em;
+}
+
+.Paragraph8{
+    position: absolute;
+    top: 164em;
+    right: 2.5em;
+    width: 40em;
+}
+
+.Image4{
+    position: absolute;
+    top: 153em;
+    right: 44.4em;
+    width: 700px;
+    height: 380px;
+    border-radius: 15px;
+}
+
+/*Footer*/
+
+.Footer {
+    position: absolute;
+    font-family: "Azonix", sans-serif;
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    top: 178em;
+    left: 0;
+    color: rgba(255, 255, 255, 0.65);
+    text-decoration: none;
+}
+
+.Footer_Title{
+    padding-left: 0.2em;
+}
+
+.Footer_Button{
+    padding-left: 0.5em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.Footer_Button:hover{
+    color:#f3a659;
+}

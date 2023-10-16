@@ -1,0 +1,293 @@
+@font-face{
+    font-family: 'Azonix';
+    src: url(/Users/26attp/Desktop/Y9%20Project%20Website/azonix/Azonix.otf);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #A7E697;
+    color: #000000;
+}
+
+/* Header */
+
+header{
+    display: inline-flex;
+}
+
+.Hero{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    opacity: 95%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.Logo{
+    position: absolute;
+    font-family: "Azonix", sans-serif;
+    margin-top: 15px;
+    padding-right: 10px;
+    color: white;
+}
+
+.Logo1{
+    position: absolute;
+    font-family: "Azonix", sans-serif;
+    left: 20px;
+    top: 55px;
+    padding-right: 10px;
+    color: white;
+}
+
+a.nav_button1{
+    font-family: "Azonix", sans-serif;
+    top: 15px;
+    left: 7.8em;
+    padding-right: 10px;
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 7em 0 7em;
+    position: relative;
+    font-size: 15px;
+}
+a.nav_button2, a.nav_button3{
+    font-family: "Azonix", sans-serif;
+    top: 14px;
+    left: 5em;
+    padding-right: 10px;
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 7em 0 7em;
+    position: relative;
+    font-size: 15px;
+}
+
+a.nav_button4{
+    font-family: "Azonix", sans-serif;
+    top: 14px;
+    left: 5em;
+    padding-right: 10px;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 7em 0 7em;
+    position: relative;
+    font-size: 15px;
+}
+
+.What_is_a_bushfire{
+    font-family: "Azonix", sans-serif;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-left: 2.5em;
+    margin-top: 4em;
+    display: block;
+    font-size: 5em;
+}
+
+/*Main*/
+
+.Bushfires{
+    margin-top: 50em;
+}
+
+/*First*/
+
+.Title{
+    position: absolute;
+    top: 45em;
+    left: 600px;
+}
+
+.Title1{
+    position: absolute;
+    top: 60em;
+    left: 200px;
+    color: #ee6b0b;
+    z-index: 100;
+}
+
+.Title2{
+    position: absolute;
+    top: 60em;
+    left: 605px;
+    color: #ee6b0b;
+    z-index: 100;
+}
+
+.Title3{
+    position: absolute;
+    top: 60em;
+    left: 1040px;
+    color: #ee6b0b;
+    z-index: 100;
+}
+
+.Title4{
+    position: absolute;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    top: 40em;
+    left: 150px;
+    z-index: 100;
+}
+
+.Title5{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 55em;
+    right: 150px;
+    z-index: 100;
+}
+
+.Paragraph1{
+    position: absolute;
+    top: 89em;
+    width: 24em;
+    text-align: center;
+    color: white;
+    left: 62px;
+    background-color: black;
+    border-radius: 0 0 8px 8px;
+    padding-top: 60px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 132.5px;
+}
+
+.Paragraph2{
+    position: absolute;
+    top: 89em;
+    width: 24em;
+    text-align: center;
+    color: white;
+    left: 512px;
+    background-color: black;
+    border-radius: 0 0 8px 8px;
+    padding-top: 60px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 35px;
+}
+
+.Paragraph3{
+    position: absolute;
+    top: 89em;
+    left: 962px;
+    width: 24em;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 0 0 8px 8px;
+    padding-top: 60px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 35px;
+}
+
+
+.Paragraph4{
+    position: absolute;
+    top: 72em;
+    right: 70px;
+    width: 90%;
+    color: white;
+    z-index: 100;
+    font-size: 30px;
+    text-align: right;
+}
+
+.Paragraph5{
+    position: absolute;
+    top: 97em;
+    left: 70px;
+    width: 90%;
+    color: white;
+    z-index: 100;
+    font-size: 30px;
+    text-align: left;
+}
+
+.Img1{
+    position: absolute;
+    width: 25em;
+    height: 15em;
+    top: 75em;
+    left: 62px;
+    border-radius: 8px 8px 1px 1px;
+}
+
+.Img2{
+    position: absolute;
+    width: 25em;
+    height: 15em;
+    top: 75em;
+    left: 512px;
+    border-radius: 8px 8px 1px 1px;
+}
+
+.Img3{
+    position: absolute;
+    width: 25em;
+    height: 15em;
+    top: 75em;
+    left: 962px;
+    border-radius: 8px 8px 1px 1px;
+}
+
+
+.Img4{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    left: 0;
+    top: 115em;
+    opacity: 95%;
+}
+
+.Img5{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    left: 0;
+    top: 158.7em;
+    opacity: 95%;
+}
+
+
+/*Footer*/
+
+.Footer {
+    position: absolute;
+    font-family: "Azonix", sans-serif;
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    top: 202.45em;
+    left: 0;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.Footer_Text{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.65);
+    padding-left: 0.3em;
+}
+.Footer_Text1{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.65);
+    padding-left: 0.8em;
+}
+
+.Footer_Button:hover{
+    color:#f3a659;
+}

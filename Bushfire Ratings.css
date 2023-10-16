@@ -1,0 +1,596 @@
+@font-face{
+    font-family: 'Azonix';
+    src: url(/Users/26attp/Desktop/Y9%20Project%20Website/azonix/Azonix.otf);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #A7E697;
+    color: #000000;
+}
+
+/* Header */
+
+header{
+    display: inline-flex;
+}
+
+
+.Hero{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    top: 0;
+    left: 0;
+    opacity: 95%;
+    z-index: -1;
+}
+
+.Logo{
+    position: absolute;
+    font-family: "Azonix", sans-serif;
+    margin-top: 15px;
+    padding-right: 10px;
+    color: white;
+}
+.Logo1{
+    position: absolute;
+    font-family: "Azonix", sans-serif;
+    left: 20px;
+    top: 55px;
+    padding-right: 10px;
+    color: white;
+}
+a.nav_button1{
+    font-family: "Azonix", sans-serif;
+    top: 15px;
+    left: 7.8em;
+    padding-right: 10px;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 7em 0 7em;
+    position: relative;
+    font-size: 15px;
+}
+a.nav_button2, a.nav_button3, a.nav_button4{
+    font-family: "Azonix", sans-serif;
+    top: 14px;
+    left: 5em;
+    padding-right: 10px;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 7em 0 7em;
+    position: relative;
+    font-size: 15px;
+}
+
+a.nav_button:hover{
+    color: #f3a659;
+    text-shadow: #444242;
+}
+
+.Bushfire_Ratings{
+    font-family: "Azonix", sans-serif;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-left: 3.5em;
+    margin-top: 4em;
+    display: block;
+    font-size: 5em;
+}
+
+/*Main*/
+
+.Fire_Rating{
+    position: absolute;
+    top: 28em;
+    left: 15em;
+}
+
+.Fire_Rating2{
+    position: absolute;
+    top: 52.5em;
+    left: 26em;
+}
+
+.No_Rating_Title{
+    position: absolute;
+    top: 58em;
+    left: 4em;
+}
+
+.No_Rating_Title1{
+    position: absolute;
+    top: 70em;
+    left: 4.5em;
+}
+
+.No_Rating_Title2{
+    position: absolute;
+    top: 72em;
+    left: 4em;
+}
+
+.No_Rating_Text{
+    position: absolute;
+    top: 80em;
+    width: 15em;
+    text-align: center;
+}
+
+.No_Rating_Line{
+    position: absolute;
+    top: 75em;
+    left: 0;
+    width: 260px;
+    border: 5px solid white;
+}
+
+.Moderate_Title{
+    position: absolute;
+    top: 58em;
+    left: 19.5em;
+}
+
+.Moderate_Title1{
+    position: absolute;
+    top: 70em;
+    left: 23.5em;
+}
+
+.Moderate_Title2{
+    position: absolute;
+    top: 72em;
+    left: 21em;
+}
+
+.Moderate_Text{
+    position: absolute;
+    top: 80em;
+    left: 17.2em;
+    width: 15em;
+    text-align: center;
+}
+
+.Moderate_Line{
+    position: absolute;
+    top: 75em;
+    left: 260px;
+    width: 310px;
+    border: 5px solid green;
+}
+
+.High_Title{
+    position: absolute;
+    top: 58em;
+    left: 35.1em;
+}
+
+.High_Title1{
+    position: absolute;
+    top: 70em;
+    left: 40.1em;
+}
+
+.High_Title2{
+    position: absolute;
+    top: 72em;
+    left: 40.9em;
+}
+
+.High_Text{
+    position: absolute;
+    top: 80em;
+    left: 34.5em;
+    width: 15em;
+    text-align: center;
+}
+
+.High_Line{
+    position: absolute;
+    top: 75em;
+    left: 540px;
+    width: 340px;
+    border: 5px solid yellow;
+}
+
+.Extreme_Title{
+    position: absolute;
+    top: 58em;
+    left: 49.5em;
+}
+
+.Extreme_Title1{
+    position: absolute;
+    top: 71em;
+    left: 56em;
+}
+
+.Extreme_Text{
+    position: absolute;
+    top: 80em;
+    left: 52.6em;
+    width: 15em;
+    text-align: center;
+}
+
+.Extreme_Line{
+    position: absolute;
+    top: 75em;
+    left: 820px;
+    width: 330px;
+    border: 5px solid orange;
+}
+
+.Catastrophic_Title{
+    position: absolute;
+    top: 58em;
+    left: 65em;
+}
+
+.Catastrophic_Title1{
+    position: absolute;
+    top: 70em;
+    left: 77em;
+}
+
+.Catastrophic_Title2{
+    position: absolute;
+    top: 72em;
+    left: 75em;
+}
+
+.Catastrophic_Text{
+    position: absolute;
+    top: 80em;
+    left: 72em;
+    width: 15em;
+    text-align: center;
+}
+
+.Catastrophic_Line{
+    position: absolute;
+    top: 75em;
+    left: 1110px;
+    width: 320px;
+    border: 5px solid red;
+}
+
+/*Buttons*/
+
+.sub-main{
+    margin: 22px;
+    float: left;
+}
+
+.No_Rating_Button{
+    position: absolute;
+    border-radius: 8.5px;
+    background-color: #d35400;
+    border: none;
+    padding: 7px;
+    width: 135px;
+    transition: all 0.5s;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    top: 68.5em;
+    left: 3em;
+}
+
+.No_Rating_Button a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
+
+.No_Rating_Button a:after{
+    content: '˅';
+    position: relative;
+    
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.No_Rating_Button:hover a{
+    padding-right: 10px;
+}
+
+.No_Rating_Button:hover a::after{
+    opacity: 1;
+    right: 0;
+}
+
+.Moderate_Button{
+    position: absolute;
+    border-radius: 8.5px;
+    background-color: #d35400;
+    border: none;
+    padding: 7px;
+    width: 135px;
+    transition: all 0.5s;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    top: 68.5em;
+    left: 19em;
+}
+
+.Moderate_Button a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
+
+.Moderate_Button a:after{
+    content: '˅';
+    position: relative;
+    right: -20px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.Moderate_Button:hover a{
+    padding-right: 10px;
+}
+
+.Moderate_Button:hover a::after{
+    opacity: 1;
+    right: 0;
+}
+
+.High_Button{
+    position: absolute;
+    border-radius: 8.5px;
+    background-color: #d35400;
+    border: none;
+    padding: 7px;
+    width: 135px;
+    transition: all 0.5s;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    top: 68.5em;
+    left: 34em;
+}
+
+.High_Button a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
+
+.High_Button a:after{
+    content: '˅';
+    position: relative;
+    right: -20px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.High_Button:hover a{
+    padding-right: 10px;
+}
+
+.High_Button:hover a::after{
+    opacity: 1;
+    right: 0;
+}
+
+.Extreme_Button{
+    position: absolute;
+    border-radius: 8.5px;
+    background-color: #d35400;
+    border: none;
+    padding: 7px;
+    width: 135px;
+    transition: all 0.5s;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    top: 68.5em;
+    left: 50em;
+}
+
+.Extreme_Button a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
+
+.Extreme_Button a:after{
+    content: '˅';
+    position: relative;
+    right: -20px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.Extreme_Button:hover a{
+    padding-right: 10px;
+}
+
+.Extreme_Button:hover a::after{
+    opacity: 1;
+    right: 0;
+}
+
+.Catastrophic_Button{
+    position: absolute;
+    border-radius: 8.5px;
+    background-color: #d35400;
+    border: none;
+    padding: 7px;
+    width: 135px;
+    transition: all 0.5s;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    top: 68.5em;
+    left: 67em;
+}
+
+.Catastrophic_Button a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
+
+.Catastrophic_Button a:after{
+    content: '˅';
+    position: relative;
+    right: -20px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.Catastrophic_Button:hover a{
+    padding-right: 10px;
+}
+
+.Catastrophic_Button:hover a::after{
+    opacity: 1;
+    right: 0;
+}
+
+/*Seasons*/
+
+.Summer_Title{
+    position: absolute;
+    top: 52.75em;
+    left: 1.25em;   
+}
+
+.Summer_Text{
+    position: absolute;
+    top: 115em;
+    left: 2.5em;
+    width: 30em;
+}
+
+.Summer_Image{
+    position: absolute;
+    top: 100em;
+    right: 0.5em;
+    height: 486px;
+    width: 864px;
+    border-radius: 35px;
+}
+
+.Autumn_Title{
+    position: absolute;
+    top: 73.75em;
+    right: 1.25em;
+}
+
+.Autumn_Text{
+    position: absolute;
+    top: 158em;
+    right: 2.5em;
+    width: 30em;
+}
+
+.Autumn_Image{
+    position: absolute;
+    top: 140em;
+    left: 0.5em;
+    height: 486px;
+    width: 864px;
+    border-radius: 35px;
+}
+
+.Winter_Title{
+    position: absolute;
+    top: 92.75em;
+    left: 1.25em;
+}
+
+.Winter_Text{
+    position: absolute;
+    top: 195em;
+    left: 2.5em;
+    width: 30em;
+}
+
+.Winter_Image{
+    position: absolute;
+    top: 180em;
+    right: 0.5em;
+    height: 486px;
+    width: 864px;
+    border-radius: 35px;
+}
+
+.Spring_Title{
+    position: absolute;
+    top: 113em;
+    right: 1.25em;
+}
+
+.Spring_Text{
+    position: absolute;
+    top: 234.5em;
+    right: 2.5em;
+    width: 30em;
+}
+
+.Spring_Image{
+    position: absolute;
+    top: 220em;
+    left: 0.5em;
+    height: 486px;
+    width: 864px;
+    border-radius: 35px;
+}
+
+/*Footer*/
+
+.Footer {
+    position: absolute;
+    font-family: "Azonix", sans-serif;
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    top: 252.45em;
+    left: 0;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.Footer_Text{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.65);
+    padding-left: 0.3em;
+}
+.Footer_Text1{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.65);
+    padding-left: 0.8em;
+}
+
+.Footer_Button:hover{
+    color:#f3a659;
+}

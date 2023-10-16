@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y9 Project</title>
+    <link rel="stylesheet" href="Bushfire Ratings.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <img class="Hero" src="/Users/26attp/Desktop/Y9%20Project%20Website/Images/Hero.JPG" alt="Hero">
+        <h1 class="Logo">Bushfire</h1>
+        <h1 class="Logo1">Safety</h1>
+            <a class="nav_button1" href="/Users/26attp/Desktop/Y9%20Project%20Website/Code/Home%20Page.html">Home</a>
+            <a class="nav_button2" href="/Users/26attp/Desktop/Y9%20Project%20Website/Code/What%20is%20a%20bushfire.html">What Is A Bushfire</a>
+            <a class="nav_button3" href="file:///Users/26attp/Desktop/Y9%20Project%20Website/Code/Bushfire%20Ratings.html">Bushfire Ratings</a>
+            <a class="nav_button4" href="file:///Users/26attp/Desktop/Y9%20Project%20Website/Code/What%20to%20do.html">What To Do</a>
+            <h1 class="Bushfire_Ratings">Bushfire Ratings</h1>
+    </header>
+
+    <div>
+        <h1 class="Fire_Rating">The New Fire Rating System</h1>
+        <h3 class="Fire_Rating2">If you know the changes; it could save your life.</h3>
+                <div>
+                    <hr class="No_Rating_Line">
+                    <h3 class="No_Rating_Title">No Rating</h3>
+                    <h4 class="No_Rating_Title1">Be Aware Of</h4>
+                    <h4 class="No_Rating_Title2">The Conditions</h4>
+                    <p class="No_Rating_Text" id="test1" style="display: none;">On days with minimal risk of a fire occuring, the fire danger rating will be set to 'No Rating'.
+                        Bushfires lit in this environment will be extremely unlikely to get out of control and cause a risk to homes and lives.</p>
+                    <div class="sub-main">
+                        <button class="No_Rating_Button" type='button' onclick="toggleText1()"><a href=""></a>Learn More</button>
+                    </div>
+                </div>
+                <div>
+                    <hr class="Moderate_Line">
+                    <h3 class="Moderate_Title">Moderate</h3>
+                    <h4 class="Moderate_Title1">Start To</h4>
+                    <h4 class="Moderate_Title2">Plan and Prepare</h4>
+                    <p class="Moderate_Text" id="test2" style="display: none;">Check your bushfire plan is up to date with your family and is not out of date. 
+                        Stay alert for fires in your area so you can be one step ahead.</p>
+                <div class="sub-main">
+                    <button class="Moderate_Button" type="button" onclick="toggleText2()"><a href=""></a>Learn More</button>
+                </div>
+                </div>
+                <div>
+                    <hr class="High_Line">
+                    <h3 class="High_Title">High</h3>
+                    <h4 class="High_Title1">Be Ready</h4>
+                    <h4 class="High_Title2">To Act</h4>
+                    <p class="High_Text" id="test3" style="display: none;">With this rating shown, fires that are lit can threaten lives and homes
+                         and you should be prepared to leave the bushfire risk area, if needed with all animals and valuables.</p>
+                <div class="sub-main">
+                    <button class="High_Button" type="button" onclick="toggleText3()"><a href=""></a>Learn More</button>
+                </div>
+                </div>
+                <div>
+                    <hr class="Extreme_Line">
+                    <h3 class="Extreme_Title">Extreme</h3>
+                    <h4 class="Extreme_Title1">Take Action Now</h4>
+                    <p class="Extreme_Text" id="test4" style="display: none;">Fires in your area with an Extreme fire danger rating will have a likely chance to lives and homes
+                         and It is advised that you leave your home if you are in the bushfire prone area, if possible take all animals with you.</p>
+                <div class="sub-main">
+                    <button class="Extreme_Button" type="button" onclick="toggleText4()"><a href=""></a>Learn More</button>
+                </div>
+                </div>
+                <div>
+                    <hr class="Catastrophic_Line">
+                    <h3 class="Catastrophic_Title">Catastrophic</h3>
+                    <h4 class="Catastrophic_Title1">Leave Your</h4>
+                    <h4 class="Catastrophic_Title2">House Immediately</h4>
+                    <p class="Catastrophic_Text" id="test5" style="display: none;">These conditions occur when there is low humidity and it is extremely hot in your area.
+                        These conditions are the most dangerous for a bushfire. Homes cannot withstand the heat and intensity of this type of blaze.
+                        You must leave your home IMMEDIATELY and get to a safe and secure location like an evacuation point out of the fire prone area.</p>
+                    <div class="sub-main">
+                        <button class="Catastrophic_Button" type="button" onclick="toggleText5()"><a href=""></a>Learn More</button>
+                    </div>
+                </div>
+    </div>
+
+
+    <div>
+        <img class="Summer_Image" src="/Users/26attp/Desktop/Y9%20Project%20Website/Images/Summer.jpg" alt="Summer">
+        <h1 class="Summer_Title">Summer</h1>
+        <p class="Summer_Text">Summer time is the most deadliest time for bushfires with the low humidity and extremely high temperatures.
+            The hotter and the higher the humidity the easier it is for a bushfire to go out of control.
+            With this sort of temperature, a bushfire can escalate extremely quickly and can brings homes, lives, 
+            and towns to the threat of everything burning to the ground.</p>
+
+        <img class="Autumn_Image" src="/Users/26attp/Desktop/Y9%20Project%20Website/Images/Autumn.jpg" alt="Autumn">
+        <h1 class="Autumn_Title">Autumn</h1>
+        <p class="Autumn_Text">In Autumn, the temperature descalates and there it is more humid in the air so if a fire does start it will not be as
+            hard to control as a fire in Summer. Most fires in Autumn might be a threat to lives and homes</p>
+
+        <img class="Winter_Image" src="/Users/26attp/Desktop/Y9%20Project%20Website/Images/Winter.jpg" alt="Winter">
+        <h1 class="Winter_Title">Winter</h1>
+        <p class="Winter_Text">During Winter, is the unrestriced season where you can burn large piles of leaf litter without needed a permit.
+            If a fire does escape, it will either extinguish because of rain or the fuel it is trying to burn is extremely
+            wet. This time of the year is the easiest time to burn because of large amounts of rain and low temperatures.
+        </p>
+
+        <img class="Spring_Image" src="/Users/26attp/Desktop/Y9%20Project%20Website/Images/Spring.jpg" alt="Spring">
+        <h1 class="Spring_Title">Spring</h1>
+        <p class="Spring_Text">During Spring, if you have a large enough property you will need to put in a firebreak. A firebreak is a 5 metre
+            break from the edge of you property to give a small break where the fire cannot reach the property in that 5 metre
+            break becaue their is no fuel there. You can still burn in the unrestricted season but at the begining of October
+            you will have to have a permit issued by a Fire Control Officer at your local fire brigade to burn leaves or bush 
+            in your property.
+        </p>
+    </div>
+
+    <footer class="Footer">
+        <h1 class="Footer_Text">Bushfire Safety</h1>
+        <h4><a class="Footer_Text1" href="file:///Users/26attp/Desktop/Y9%20Project%20Website/Code/Home%20Page.html">Home</a></h5>
+        <h4><a class="Footer_Text1" href="/Users/26attp/Desktop/Y9%20Project%20Website/Code/What%20is%20a%20bushfire.html">What Is A Bushfire</a></h4>
+        <h4><a class="Footer_Text1" href="file:///Users/26attp/Desktop/Y9%20Project%20Website/Code/Bushfire%20Ratings.html">Bushfire Ratings</a></h4>
+        <h4><a class="Footer_Text1" href="file:///Users/26attp/Desktop/Y9%20Project%20Website/Code/What%20to%20do.html">What to do?</a></h4>
+    </footer>
+
+                    <script src="Bushfire Ratings.js"></script>
+</body>
+</html>
